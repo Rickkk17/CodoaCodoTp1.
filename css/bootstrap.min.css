@@ -23,7 +23,7 @@
 }
 .contenedor-hero{
     display: flex;
-    background-image: url("../img/ba1.jpg");
+    background-image: url("/img/ba1.jpg");
     background-size: cover;
     background-position: center;
     height: 40rem;
