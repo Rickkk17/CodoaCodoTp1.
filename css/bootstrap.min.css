@@ -130,6 +130,42 @@ footer {
 
 }
 
+/*PAGINA DE TICKETS*/
+.tickets-varios{
+    margin-top: 7rem;
+}
+
+.card-tickets {
+    text-align: center;
+    padding: 2rem;
+}
+
+.card-tickets:hover{
+    transform: scale(0.9);
+    background-color: rgb(221, 218, 218);
+}
+
+.card-tickets-estudiante{
+    border: solid 3px rgb(31, 115, 220);
+}
+
+.card-tickets-trainee{
+    border: solid 3px rgb(17, 150, 200);
+}
+
+.card-tickets-junior{
+    border: solid 3px rgb(228, 190, 20);
+}
+.formulario{
+    padding: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+.pago-total{
+    background-color: rgb(167, 207, 255) !important;
+}
+
+
 /* Media */
 
 @media screen and (max-width:910px) {
