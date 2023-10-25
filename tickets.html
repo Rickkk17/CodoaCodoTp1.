@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
   <header>
+    <HTML>
     <body>
         
    
@@ -89,13 +90,13 @@
             <div class="col-12 mt-2">
                 <input type="text" class="form-control" placeholder="correo" aria-label="correo" required>
             </div>
-            <div class="col-6 mt-3">
+            <div class="col-6 mt-2">
                 <label for="" class="ps-1">Cantidad</label>
-                <input type="text" class="form-control mt-2" id="input-cantidad" placeholder="Cantidad" aria-label="Cantidad" required>
+                <input type="text" class="form-control mt-1" id="input-cantidad" placeholder="Cantidad" aria-label="Cantidad" required>
             </div>
-            <div class="col-6 mt-3">
-                <label for="" class="ps-1">Categoría</label>
-                <select class="form-select select-tickets mt-2"  id="select-tickets" aria-label="Default select example">
+            <div class="col-6 mt-2">
+                <label  for="" class="ps-1">Categoría</label>
+                <select class="form-select select-tickets mt-1"  id="select-tickets" aria-label="Default select example">
                     <option selected>Selecciona una Categoría</option>
                     <option value="1">Estudiante</option>
                     <option value="2">Trainee</option>
@@ -103,13 +104,13 @@
                     <option value="4">General</option>
                 </select>
             </div>
-            <div class="col-12 mt-4">
+            <div class="col-12 mt-3">
                 <input type="text" class="form-control form-control-lg pago-total" id="input-total-pagar" placeholder="Total a pagar: $" aria-label="Total" disabled>
             </div>
-            
+    
             <div class="container d-flex justify-content-between">
-                <button type="submit" class="btn btn-success w-50 m-1">Borrar</button>
-                <button type="submit" class="btn btn-success w-50 m-1">Resumen</button>
+                <button type="submit" class="btn btn-success btn-ticket mt-3 w-50">Borrar</button>
+                <button type="submit" class="btn btn-success btn-ticket mt-3 w-50" onclick="montoTotal();">Resumen</button>
             </div>
         </div>
     </div>
@@ -124,8 +125,11 @@
         <a class="nav-link footer-link text-center" href="#">Privacidad</a>
         <a class="nav-link footer-link text-center" href="#">Estudiantes</a>
     </div> 
-  </footer>   
+  </footer>
+
+  <script src="Js/index.js"></script> 
 </body>
+</HTML>
 
 
 
