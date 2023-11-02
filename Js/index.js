@@ -30,11 +30,13 @@ valorTotal = 0;
             valorTotal = valorEntrada * cantidad;
         }    
     } else {
-        
-
+    
     }  
     
     document.getElementById("input-total-pagar").value='Monto total a pagar: $' + valorTotal;
+    function borrar () {
+        form.reset();
+    }
 }
 
 
